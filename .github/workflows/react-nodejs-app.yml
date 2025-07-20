@@ -2,7 +2,7 @@ name: Test react-nodejs app
 on: workflow_dispatch
 jobs:
   test:
-      runs-on: ubuntu latest
+      runs-on: ubuntu-latest
       steps:
         - name: start test
           run: echo "start"
